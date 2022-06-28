@@ -1,0 +1,8 @@
+GIT 
+
+1) git init para iniciar
+2) git status para verificar que funciona
+3) git add para agregar archivos
+4) git ignore (.gitignore)
+poner nombre del archivo 
+5)
