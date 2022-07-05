@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif
+}
+
+
+@import './variables/mixins';
+@import './variables/extend';
+
+@import "./faq";
+@import "./aboutUs";
+@import "./categorias";
+@import "./models";
+@import "./navbar";
+@import "./carousel";
+@import "./footer";
+@import "./content";
+
+
+.title {
+  display: flex;
+  justify-content: center;
+
+  &__title {
+    color: black;
+  }
+}

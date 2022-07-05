@@ -1,0 +1,25 @@
+.carousel {
+    margin: auto;
+    padding: 30px;
+    background-color: blueviolet;
+
+    &__img {
+        margin: auto;
+        width: 1000px;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel {
+        margin: auto;
+        padding: 30px;
+        background-color: blueviolet;
+    
+        &__img {
+            margin: auto;
+            width: 500px;
+            height: auto;
+        }
+    }
+}

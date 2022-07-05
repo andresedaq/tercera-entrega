@@ -1,0 +1,5 @@
+@mixin btn-verMas ($colorLetra , $colorFondo) {
+    background-color: $colorFondo;
+    color: $colorLetra;
+    padding: 1rem;
+}

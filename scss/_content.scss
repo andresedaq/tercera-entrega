@@ -1,0 +1,35 @@
+.content {
+  @extend %estiloParrafo;
+  display: flex;
+  margin-top: 1rem;
+  padding: 2rem;
+  align-items: center;
+  &__img {
+    padding: 2rem;
+    width: 30rem;
+    height: auto;
+  }
+}
+button {
+  @include btn-verMas (rgb(255, 255, 255), rgb(0, 172, 43));
+}
+
+@media (max-width: 576px) {
+  .content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .content__img {
+    width: 30rem;
+    height: auto;
+    padding: 2rem;
+    margin: auto;
+  }
+
+  .content__contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

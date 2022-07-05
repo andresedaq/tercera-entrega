@@ -1,0 +1,30 @@
+.models {
+    display: flex;
+    align-items: center;
+    border-top: 30px solid white;
+    border-bottom: 30px solid white;
+    background-color: blueviolet;
+    &__img {
+        width: 800px;
+        margin: auto;
+        padding: 3rem;
+    }
+    &__titulo {
+        color: white;
+    }
+    &__parrafo {
+        color: white;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .models {
+      display: flex;
+      flex-direction: column;
+
+      &__img {
+        width: 500px;
+      }
+    }
+}  
