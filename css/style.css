@@ -3,6 +3,10 @@
   margin: 0;
   font-family: sans-serif; }
 
+.logo_img {
+  width: 100px;
+}
+
 .content {
   text-align: center; }
 
